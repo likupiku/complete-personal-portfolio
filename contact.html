@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>CONTACT</title>
+    <style>
+        @import url(<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">);
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        }
+
+        .contact {
+            position: relative;
+            min-height: 100vh;
+            padding: 50px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: url(image/pexels-photo-547114.jpeg);
+            background-size: cover;
+        }
+
+        .contact .content {
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .contact .content h2 {
+            font-size: 36px;
+            font-weight: 500px;
+            color: #22e3b0;
+        }
+
+        .contact .content p {
+            font-weight: 300px;
+            color: #22e3b0;
+        }
+
+        .connect {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .connect .contact-info {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .connect .contact-info .box {
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+        }
+
+        .connect .contact-info .box .icon {
+            min-width: 60px;
+            height: 60px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 22px;
+        }
+
+        .connect .contact-info .box .text {
+            display: flex;
+            margin-left: 20px;
+            font-size: 16px;
+            color: brown;
+            flex-direction: column;
+            font-weight: 300px;
+        }
+
+        .connect .contact-info .box .text h3 {
+            font-weight: 500px;
+            color: blue;
+        }
+
+        .contact-form {
+            width: 40%;
+            padding: 40px;
+            background: #fff;
+        }
+
+        .contact-form h2 {
+            font-size: 30px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .contact-form .inputbox {
+            position: relative;
+            width: 100%;
+            margin-top: 10PX;
+
+        }
+
+        .contact-form .inputbox input,
+        .contact-form .inputbox textarea {
+            width: 100%;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 2px solid #333;
+            outline: none;
+            resize: none;
+        }
+
+        .contact-form .inputbox span {
+            position: absolute;
+            left: 0;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            pointer-events: none;
+            transition: 0.5s;
+            color: #666;
+        }
+
+        .contact-form .inputbox input:focus~span,
+        .contact-form .inputbox input:valid~span,
+        .contact-form .inputbox textarea:focus~span,
+        .contact-form .inputbox textarea:valid~span {
+            color: #e91e63;
+            font-size: 16px;
+            transform: translateY(-20px)
+        }
+
+        .contact-form .inputbox input[type="submit"] {
+            width: 100px;
+            background: #00bcd4;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+
+        }
+
+        @media (max-width:991px) {
+            .contact {
+                padding: 50px;
+            }
+
+            .connect {
+                flex-direction: column;
+            }
+
+            .connect .contact-info {
+                margin-bottom: 40px;
+            }
+
+            .connect .contact-info,
+            .contact-form {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>CONTACT US</h2>
+            <p>You can contact with us for your further inquiry and more details.I hope you won't waste your time and
+                money working with us.</p>
+        </div>
+        <div class="container connect">
+            <div class="contact-info">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-map-pin"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>210/2 ,Elephant road,New Market,Dhaka-1216,Bangladesh.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+01620448258</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>Emon.ahmedliku@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <h2>Send Message</h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea name="" required="required" id="" cols="30" rows="10"></textarea>
+                        <span>Type your message....</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" value="send">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

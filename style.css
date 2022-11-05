@@ -1,0 +1,451 @@
+.back {
+    background-color: black;
+    padding: 20px;
+
+}
+
+
+
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.back1 {
+    background-image: url(image/slide-dark-2c181c76.jpeg);
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+}
+
+.picture {
+    width: 25%;
+    box-shadow: 10px 10px 5px 0 gray;
+}
+
+.info {
+    background-color: #524f48;
+    margin-top: 50px;
+    width: 25%;
+    margin-left: 480px;
+}
+
+.info2 {
+    background-color: gray;
+    width: 30%;
+    margin-left: 450px;
+}
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+.snip1566 {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    max-width: 190px;
+    width: 100%;
+    color: #bbb;
+    font-size: 16px;
+    box-shadow: none !important;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.snip1566 *,
+.snip1566:before,
+.snip1566:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.snip1566:before,
+.snip1566:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    border: 2px solid #bbb;
+    border-color: transparent #bbb;
+}
+
+.snip1566 img {
+    max-width: 100%;
+    backface-visibility: hidden;
+    vertical-align: top;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.snip1566 figcaption {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 50%;
+}
+
+.snip1566 i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    z-index: 1;
+}
+
+.snip1566 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.snip1566:hover figcaption,
+.snip1566.hover figcaption {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before,
+.snip1566:hover:after,
+.snip1566.hover:after {
+    border-width: 10px;
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.snip1566:hover:after,
+.snip1566.hover:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.gallery {
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.picture2 {
+    width: 80%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.back2 {
+    background-image: url(image/381264-The_Longest_Journey-Dreamfall_Chapters.jpg);
+    background-size: cover;
+    height: 550px;
+    margin-bottom: 50px;
+}
+
+.about {
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">);
+
+
+.service1 {
+    width: 100%;
+    background-color: #211f24;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.service-section {
+    padding: 50px 0;
+    color: #202020;
+    background-color: #211f24;
+}
+
+.service-section .service2 {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.service3 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.service-section .title {
+    color: #fff;
+    position: relative;
+    padding-bottom: 14px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.service-section .title span {
+    color: #ff4500;
+}
+
+.service-section .title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 140px;
+    height: 3px;
+    background-color: #ff4500;
+    transform: translateX(-50%);
+}
+
+.service-section .title::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    width: 45px;
+    height: 6px;
+    background-color: #ff4500;
+    transform: translateX(-50%);
+}
+
+.service-section .description {
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #6f6f71;
+    font-weight: 600;
+}
+
+.service-section .service-column {
+    max-width: 33.333333%;
+    padding: 0 15px;
+}
+
+.service-section .service-column .single-service {
+    position: relative;
+    margin-top: 30px;
+    background-color: #24252a;
+    border-radius: 0;
+    padding: 40px 30px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.5);
+    overflow: hidden;
+    text-align: center;
+}
+
+.service-section .service-column .single-service .content {
+    position: relative;
+    z-index: 20;
+}
+
+.service-section .service-column .single-service .content .icon {
+    display: inline-block;
+    margin-bottom: 25px;
+    width: 70px;
+    height: 70px;
+    background-color: #ff4500;
+    border-radius: 5px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+.service-section .service-column .single-service:hover .icon {
+    background-color: #fff;
+    color: #ff4500;
+    border: 50px;
+    transition: all 0.5s;
+}
+
+
+
+.service-section .service-column .single-service .content .main-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 23px;
+    color: #f1f1f1;
+    transition: color 0.3s;
+}
+
+.service-section .service-column .single-service .content .description {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #838383;
+    transition: color 0.3s;
+}
+
+.service-section .service-column .single-service:hover .description {
+    color: #fff;
+}
+
+
+
+.service-section .service-column .single-service .content .learn-more {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.service-section .service-column .single-service .content .learn-more::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #ff4500;
+    transition: background-color 0.3s;
+}
+
+.service-section .service-column .single-service:hover .learn-more::after {
+    background-color: #fff;
+}
+
+
+
+.service-section .service-column .single-service .circle-before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40%, -40%);
+    width: 150px;
+    height: 150px;
+    background-color: #ff4500;
+    border-radius: 50%;
+    transition: all 0.6s;
+}
+
+.service-section .service-column .single-service:hover .circle-before {
+    width: 100%;
+    height: 100%;
+    transform: none;
+    border: 0;
+    border-radius: 0;
+    opacity: o.8;
+}
+
+
+.pricing {
+    font-family: 'poppins ';
+    background: #eee;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 5% auto;
+}
+
+.single-price {
+    width: 33%;
+    background: #262626;
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+
+.price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #da4357;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+
+.deals {
+    margin-top: 10%;
+}
+
+.single-price h1 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 3;
+    text-transform: uppercase;
+}
+
+.price h2 {
+    font-size: 38px;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.deals h4 {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 2;
+}
+
+.single-price:hover {
+    background: #da4357;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.single-price:hover .price {
+    border-color: #fff;
+}
+
+.single-price a {
+    text-decoration: none;
+    background: #da4357;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.single-price:hover a {
+    background: #262626;
+    color: #fff;
+}
+
+.package {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.buttn {
+    background-image: linear-gradient(to right, #0aa98f, #49ff78);
+    font-weight: 900;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 5px 5px 30px #0aa98e, -5px -5px 30px #0aa98e;
+}
